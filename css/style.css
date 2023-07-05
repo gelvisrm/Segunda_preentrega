@@ -1,0 +1,60 @@
+/* Reset de margenes y bordes*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Ingreso de font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+/*Color de body y letra*/
+
+body{
+    background-color: #04021E;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+header nav{
+    display: flex;
+    color: white;
+}
+header nav ul{
+    display: flex;
+    color: white;
+}
+header nav ul li {
+    display: flex;
+    color: white;
+}
+header nav ul li a {
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+#navbarNav{
+    justify-content: space-between;
+
+}
+
+.fab{
+    
+    height: 30px;
+    
+}
+#botonSuscribete{
+    border-radius: 24px;
+}
+
+/*Arreglos de la seccion Main*/
+#cajaPrincipal{
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+
+/*Arreglos del carousel*/
+
+#carouselSize{
+margin-bottom: 200px;
+}
