@@ -135,3 +135,98 @@ justify-self:center;
 .banderaFooter{
     text-align: right;
 }
+
+/*Pagina Nosotros*/
+
+.h2Nosotros{
+    text-align: center;
+}
+
+#containerPico{
+    margin-top: 100px;
+}
+
+/*Arreglo de imagenes*/
+
+
+#imgPico{
+    border-radius: 60px 0 0 60px;
+}
+
+#imgCielo{
+    border-radius: 0 60px 60px 0;
+    
+}
+
+/*Arreglos pagina Equipo*/
+.imagenEquipo img{
+    height: 50px;
+    border-radius: 100px 100px 100px 100px;
+    border: 3px solid #C7FF5A;
+    border-bottom: 2px solid #C7FF5A;
+  }
+  
+  
+  .contactoDescripcion{
+    margin-top: 100px;
+    justify-content:center;  
+  
+  }
+
+#textoEquipo{
+    text-align: justify;
+}
+
+/*Pagina Unirme*/
+
+
+
+#botonColabora img{
+    height: 20px;
+}
+
+#fondoColabora{
+    background-color:aquamarine;
+    color:#101B3A;
+    text-align: justify;
+    border-radius: 40px 0 0 20px;
+}
+#botonColabora{
+    border-radius: 24px;
+    text-align: center
+}
+
+#h3Colabora{
+    text-align: center;
+}
+
+/*Pagina contacto*/
+
+.inputContacto{
+    border: 2px solid #7976A8;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    padding-top: 10px;
+  
+  }
+  
+  #mensaje{
+    border: 2px solid #7976A8;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    padding-top: 10px;
+    
+  }
+  
+  #botonContacto{
+    color: #7976A8;
+    margin-top: 10px;
+    border-radius: 24px;
+  }
+#nombre #email{
+    text-align: center;
+}
